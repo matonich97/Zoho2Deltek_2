@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Zoho2Deltek_2.exe" version="2.0.0.7" publicKeyToken="0aecc5dcb4f2455d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Logo1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Zoho2Deltek_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Zoho2Deltek_2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zoho2Deltek_2.exe" size="365536">
+      <assemblyIdentity name="Zoho2Deltek_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s9BnDZAcRneNz3yvZw7m6w4Zy0YQCwaEYHCqVIuODb8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Logo1.ico" size="112282">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4Rh++a6GzSz0JqfNmf7OpPLwHMz4fkn5tOXgYFPQEfE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Zoho2Deltek_2.exe.config" size="1551">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nYscVEDCrwUV/4J68eqKhjY/l5CCM9WYLWMt+oi+2vU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9E8306F\nmato" issuerKeyHash="99440f9035c75450ba9cb2b0571845b382d3d290" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6yq5cUyzj7ueAYCr0H3qmXx/U6T92JDhvZzJJefb3tc=</DigestValue></Reference></SignedInfo><SignatureValue>eDyyONKEyXvT19kASVnj2psXisTDgXBYi106uMJ3jbhNaK1XEb/CUgl3Az5HO6x9v06WnkgwMpYOZF0IfTr9Xt8VkkK8UCFIlWTrRvBKf2zgAk7ZwqrsWLAO15zoyaE0uDVw6hi1SoX5FfbE27Aw0F/cn6aaA7oIPu24ennTyLI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lwjd26HK040IoFV4hQ9OYNtzcFb3kjcYBtaHsmih1GQ+LJhOtfN7UHVlXMf6TmhlyzceYAm0TPfWVoEDyJFdlWUh2IzJdGqvaOcMEFfcN365zWg3xB542Cpmf9cdVfN2LxjBS0n0x6rCSi0Ai1DlNdOdTDktr6kKuP3G7iwy65U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d7dedbe725c99cbde190d8fda4537f7c99ea7dd0ab80019ebb8fb34c71b92aeb" Description="" Url=""><as:assemblyIdentity name="Zoho2Deltek_2.exe" version="2.0.0.7" publicKeyToken="0aecc5dcb4f2455d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9E8306F\nmato</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gqkB/Su6Af6/mHAqm/d1RxS3+JHkjOn7887rpVABWOo=</DigestValue></Reference></SignedInfo><SignatureValue>YsuuA+ElS7GJ1DApfnRkr0J4OaSpx1BiAyfJjW5tdxgPn89ICTy4bTYHQxP/GfRe8no6dkq5RacRTAho71jy12ETgLvlMVB/SgCapdHwG+RpP4UW43c56ByGW2mshJrQSo6sDsDsRZ6cnZRa8QrmanhJwePJ3fCqKd9rR9B8PXc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lwjd26HK040IoFV4hQ9OYNtzcFb3kjcYBtaHsmih1GQ+LJhOtfN7UHVlXMf6TmhlyzceYAm0TPfWVoEDyJFdlWUh2IzJdGqvaOcMEFfcN365zWg3xB542Cpmf9cdVfN2LxjBS0n0x6rCSi0Ai1DlNdOdTDktr6kKuP3G7iwy65U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQViRJQUVSQr9P6vrR2ot6hjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADkARQA4ADMAMAA2AEYAXABuAG0AYQB0AG8wHhcNMjQwNDA0MjMzNDUxWhcNMjUwNDA1MDUzNDUxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADkARQA4ADMAMAA2AEYAXABuAG0AYQB0AG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJcI3duhytONCKBVeIUPTmDbc3BW95I3GAbWh7JoodRkPiyYTrXze1B1ZVzH+k5oZcs3HmAJtEz31laBA8iRXZVlIdiMyXRqr2jnDBBX3Dd+uc1oN8QeeNgqZn/XHVXzdi8YwUtJ9MeqwkotAItQ5TXTnUw5La+pCrj9xu4sMuuVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJOgAsiT3Vs9InY6s6YBND1lTohGr3nZ4JG1g3c0yUQaOCs5NYOon2escQ3pd+i/oF4tU0Z7QhRaCZY/xxw2Y2WbRmLOipBpBANq0UzmfD0hhRzAoCIvKVT1G6Bj37hHdeTlaTZoa+mmADZNIy0QtgbL3H6Wmw3tnPoGDxp53YXg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Zoho2Deltek_2.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+    </startup>
+    <userSettings>
+        <Zoho2Deltek_2.Properties.Settings>
+            <setting name="dateIndex" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="projectIndex" serializeAs="String">
+                <value>3</value>
+            </setting>
+            <setting name="taskIndex" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="noteIndex" serializeAs="String">
+                <value>8</value>
+            </setting>
+            <setting name="hoursIndex" serializeAs="String">
+                <value>9</value>
+            </setting>
+            <setting name="colemanJobName" serializeAs="String">
+                <value>Coleman Jobs 2024</value>
+            </setting>
+        </Zoho2Deltek_2.Properties.Settings>
+    </userSettings>
+</configuration>
